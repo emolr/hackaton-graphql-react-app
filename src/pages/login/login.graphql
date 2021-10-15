@@ -1,0 +1,5 @@
+mutation CreateMagicLinkEmailMutation($email: String!) {
+  createMagicLinkEmail(email: $email) {
+    isSent
+  }
+}
